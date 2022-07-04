@@ -50,6 +50,6 @@ xcodebuild -exportArchive \
 
 #函数调用
 # $1 工程名  $2 scheme名字  $3 Release还是Debug  $4 工程路径  $5 ipa文件输出路径 $6 plist文件名字
-packaging "IMLib" "IMLib" "./" "./build" "./ExportOptions.plist"
+packaging "IMKit" "IMKit" "./" "./build" "./ExportOptions.plist"
 
 
